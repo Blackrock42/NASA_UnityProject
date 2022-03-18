@@ -2,9 +2,7 @@
 #Thomas Ustica
 #March 18 2022
 
-This repo contains the scripts used in the Unity project to plot a 3D geometry from given file.
-
-There are a few things worth noting for this project:
+This repo contains the scripts used in the Unity project to plot a 3D geometry from given file. There are a few things worth noting for this project:
 
 -Most importantly, Unity Engine has a difficult time rendering millions of objects at once. As a result, loading the given geometry (PahtCascade-ASCII.xyz, with over 2,000,000 points) will likely crash the program. I created a resolution setting on the Graph object in the editor, which defaults to a low value so that the program can run. It will only plot a resolution % of the points, which will lower the quality but increase the performance.
 
@@ -14,4 +12,9 @@ There are a few things worth noting for this project:
 
 -Lastly, if you want to plot a singular block, use PlotBlockOutline(blocks[0]); in the given place in Graph.cs. This code will be labelled.
 
+
 I'd like to thank the NASA internships program for this opportunity, and I hope you like this Unity3D demonstration!
+
+Thank you,
+
+Thomas U
